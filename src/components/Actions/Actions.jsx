@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-const URL = 'http://localhost:4000/'
+const URL = 'https://bank-ameer.herokuapp.com/'
 export default function Actions({ users, updateMainUsers }) {
 
     const [selectedUser, setSelectedUser] = useState(null)

@@ -10,7 +10,7 @@ import Transfer from "./components/Transfer/Transfer";
 import Details from "./components/Details/DetailsPage";
 import SignleUserDetails from "./components/Details/SignleUserDetails";
 //process.env.REACT_APP_API
-const URL = 'http://localhost:4000';
+const URL = 'https://bank-ameer.herokuapp.com/'
 function App() {
   const [users, setUsers] = useState([])
   const [singleUser, setSingleUser] = useState(null)

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-const URL = 'http://localhost:4000/'
+const URL = 'https://bank-ameer.herokuapp.com/'
 
 export default function Transfer({ users, updateMainUsers }) {
     const [fromUser, setFromUser] = useState(null)
